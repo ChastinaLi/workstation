@@ -11,11 +11,13 @@ node['homebrew']['casks'] = %w[
     evernote
     fantastical
     firefox
+    firefox
     flash-player
     flux
     gfxcardstatus
     github
     gitx-l
+    google-chrome
     handbrake
     hipchat
     intellij-idea-ce
