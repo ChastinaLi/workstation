@@ -2,7 +2,10 @@ require 'rake'
 
 task :default => :package
 
-task :package do
+require 'rake/clean'
+CLEAN.include(%w[pkg vendor])
+
+task :package => :clean do
   sh 'berks vendor vendor/cookbooks'
   FileUtils.cp 'solo.rb', 'vendor'
   FileUtils.cp 'solo.json', 'vendor'
