@@ -1,6 +1,22 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 0.2.0 - 2014-10-10
+
+### Added
+- smcFanControl
+
+### Deprecated
+- Nothing.
+
+### Removed
+- Evernote
+- Skitch
+
+### Fixed
+- Now actually should be executable.
+
+
 ## 0.1.0 - 2014-10-10
 
 ### Added
