@@ -1,4 +1,4 @@
-node['homebrew']['formulas'] = %w[
+default['homebrew']['formulas'] = %w[
     autojump
     boot2docker
     cowsay

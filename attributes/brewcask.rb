@@ -1,4 +1,4 @@
-node['homebrew']['casks'] = %w[
+default['homebrew']['casks'] = %w[
     adium
     atom
     bettertouchtool
