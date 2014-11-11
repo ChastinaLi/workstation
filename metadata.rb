@@ -1,8 +1,8 @@
 name             'workstation'
-maintainer       'The Authors'
-maintainer_email 'you@example.com'
-license          'all_rights'
-description      'Installs/Configures workstation'
-long_description 'Installs/Configures workstation'
+maintainer       'Arthur Maltson'
+maintainer_email 'arthur@maltson.com'
+license          'MIT'
+description      'Installs/Configures an OS X workstation'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 
