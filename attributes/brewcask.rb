@@ -11,7 +11,6 @@ default['homebrew']['casks'] = %w[
     evernote
     fantastical
     firefox
-    firefox
     flash-player
     flux
     gfxcardstatus
@@ -31,6 +30,7 @@ default['homebrew']['casks'] = %w[
     screen-flow
     skitch
     skype
+    smcfancontrol
     steam
     the-unarchiver
     transmission
