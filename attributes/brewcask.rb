@@ -8,7 +8,6 @@ default['homebrew']['casks'] = %w[
     controlplane
     dropbox
     eclipse-jee
-    evernote
     fantastical
     firefox
     flash-player
@@ -28,7 +27,6 @@ default['homebrew']['casks'] = %w[
     pc-keyboardhack
     rdio
     screen-flow
-    skitch
     skype
     smcfancontrol
     steam
