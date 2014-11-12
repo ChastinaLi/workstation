@@ -1,10 +1,8 @@
 default['homebrew']['casks'] = %w(
-    adium
     atom
     caffeine
     chefdk
     clamxav
-    controlplane
     dropbox
     eclipse-jee
     fantastical
