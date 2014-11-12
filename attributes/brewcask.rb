@@ -24,7 +24,7 @@ default['homebrew']['casks'] = %w[
     licecap
     macvim
     path-finder
-    pc-keyboardhack
+    seil
     rdio
     screen-flow
     skype
