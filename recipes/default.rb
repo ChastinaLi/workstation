@@ -1,3 +1,1 @@
-include_recipe 'homebrew'
-include_recipe 'homebrew::install_formulas'
-include_recipe 'homebrew::install_casks'
+log 'Use a machine specific recipe instead of default'
