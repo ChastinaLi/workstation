@@ -1,7 +1,6 @@
 default['homebrew']['casks'] = %w(
     adium
     atom
-    bettertouchtool
     caffeine
     chefdk
     clamxav
@@ -28,7 +27,6 @@ default['homebrew']['casks'] = %w(
     rdio
     screenflow
     skype
-    smcfancontrol
     steam
     the-unarchiver
     transmission
