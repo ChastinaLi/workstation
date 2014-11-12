@@ -26,7 +26,7 @@ default['homebrew']['casks'] = %w[
     path-finder
     seil
     rdio
-    screen-flow
+    screenflow
     skype
     smcfancontrol
     steam
