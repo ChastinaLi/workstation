@@ -1,4 +1,4 @@
-default['homebrew']['formulas'] = %w[
+default['homebrew']['formulas'] = %w(
     autojump
     boot2docker
     cowsay
@@ -40,4 +40,4 @@ default['homebrew']['formulas'] = %w[
     wget
     wireshark
     zsh
-]
+)

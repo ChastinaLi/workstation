@@ -1,4 +1,4 @@
-default['homebrew']['casks'] = %w[
+default['homebrew']['casks'] = %w(
     adium
     atom
     bettertouchtool
@@ -37,4 +37,4 @@ default['homebrew']['casks'] = %w[
     vmware-fusion
     xscope
     zephyros
-]
+)
