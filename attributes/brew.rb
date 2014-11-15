@@ -1,3 +1,4 @@
+default['homebrew']['auto-update'] = false
 default['homebrew']['formulas'] = %w(
     autojump
     boot2docker
