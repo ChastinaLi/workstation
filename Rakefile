@@ -1,6 +1,9 @@
 require 'rake'
+require 'rspec/core/rake_task'
 
-task :default => :package
+RSpec::Core::RakeTask.new(:spec)
+
+task default: :spec
 
 require 'rake/clean'
 CLEAN.include(%w[pkg vendor])
@@ -10,7 +13,7 @@ def cookbook_version
   metadata.match(/version\s+'(.*)'/)[1]
 end
 
-task :package => :clean do
+task package: :clean do
   sh 'berks vendor vendor/cookbooks'
   FileUtils.cp 'solo.rb', 'vendor'
   FileUtils.cp 'solo.json', 'vendor'
