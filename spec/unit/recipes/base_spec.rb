@@ -7,4 +7,9 @@ describe 'workstation::base' do
     stub_command('which git').and_return('/usr/local/bin/git')
     expect(chef_run).to install_package('autojump')
   end
+
+  it 'installs homebrew cask packages' do
+    stub_command('which git').and_return('/usr/local/bin/git')
+    expect(chef_run).to install_cask('google-chrome')
+  end
 end
