@@ -9,6 +9,6 @@
       <string>/Application/smcFanControl.app/Contents/Resources/smc -k F1Mx -w 1000</string>
     </array>
     <key>StartInterval</key>
-    <integer>3600</integer>
+    <integer>900</integer>
 </dict>
 </plist>
