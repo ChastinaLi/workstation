@@ -5,3 +5,7 @@ include_recipe 'workstation::base'
 end
 
 chef_gem 'lunchy'
+
+cookbook_file 'fancontrol.plist' do
+  path "#{Chef::Config[:file_cache_path]}/fancontrol.plist"
+end
