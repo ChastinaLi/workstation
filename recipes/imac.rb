@@ -14,3 +14,7 @@ bash 'install fancontrol' do
   command "$HOME/.chefdk/gem/ruby/2.1.0/bin/lunchy install " \
     "#{Chef::Config[:file_cache_path]}/fancontrol.plist"
 end
+
+bash 'start fancontrol' do
+  command '$HOME/.chefdk/gem/ruby/2.1.0/bin/lunchy start -w fancontrol'
+end
