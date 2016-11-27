@@ -1,5 +1,4 @@
-default['homebrew']['auto-update'] = false
-default['homebrew']['formulas'] = %w(
+default['workstation']['formulas'] = %w(
     autojump
     boot2docker
     cowsay
