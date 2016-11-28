@@ -1,4 +1,7 @@
 DEPENDENCIES
+  dotfiles
+    git: https://github.com/amaltson/dotfiles.git
+    revision: f02fa6f01f9527fe30175b061564a873186b030e
   workstation
     path: .
     metadata: true
@@ -9,6 +12,7 @@ GRAPH
     mingw (>= 1.1)
     seven_zip (>= 0.0.0)
   compat_resource (12.16.2)
+  dotfiles (0.0.1)
   homebrew (2.1.2)
     build-essential (>= 2.1.2)
   mingw (1.2.4)
@@ -21,4 +25,5 @@ GRAPH
   windows (2.1.1)
     ohai (>= 4.0.0)
   workstation (0.2.0)
+    dotfiles (>= 0.0.0)
     homebrew (~> 2.1)
