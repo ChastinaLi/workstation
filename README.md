@@ -10,8 +10,13 @@ represented as two cookbooks:
 - `imac` - home computer
 - `work-mbp` - work laptop
 
+### Usage
+
 To run this cookbook, you'll need to:
 
+- install XCode or the CLI tools.
+- install [homebrew](http://brew.sh).
+- install [oh-my-zsh](http://ohmyz.sh).
 - install [chef-client](https://downloads.chef.io/chef-client/) or
   [ChefDK](https://downloads.chef.io/chef-dk/).
 - download the latest [release](https://github.com/amaltson/workstation/releases)
