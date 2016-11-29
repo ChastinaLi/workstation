@@ -4,5 +4,16 @@
 [![Code Climate](http://img.shields.io/codeclimate/github/amaltson/workstation.svg)](https://codeclimate.com/github/amaltson/workstation)
 [![Code Climate Coverage](http://img.shields.io/codeclimate/coverage/github/amaltson/workstation.svg)](https://codeclimate.com/github/amaltson/workstation)
 
-TODO: Enter the cookbook description here.
+This cookbook sets up my workstations. Currently there are two variants
+represented as two cookbooks:
 
+- `imac` - home computer
+- `work-mbp` - work laptop
+
+To run this cookbook, you'll need to:
+
+- install [chef-client](https://downloads.chef.io/chef-client/) or
+  [ChefDK](https://downloads.chef.io/chef-dk/).
+- download the latest [release](https://github.com/amaltson/workstation/releases)
+- untar
+- execute `chef-client -z -j solo.json`
