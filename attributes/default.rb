@@ -62,3 +62,5 @@ default['homebrew']['casks'] = %w(
     tomighty
     vagrant
 )
+
+default['workstation']['user'] = ENV['SUDO_USER'] || ENV['USER']
