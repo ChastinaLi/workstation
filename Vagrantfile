@@ -27,6 +27,9 @@ Vagrant.configure("2") do |config|
   
     # Customize the amount of memory on the VM
     vb.memory = "4096"
+
+    # Change video ram to max for OS X GUI to work.
+    vb.customize ["modifyvm", :id, "--vram", "128"]
   end
   #
   # View the documentation for the provider you are using for more
