@@ -24,6 +24,6 @@ GRAPH
     windows (>= 1.2.2)
   windows (2.1.1)
     ohai (>= 4.0.0)
-  workstation (0.2.0)
+  workstation (0.3.0)
     dotfiles (>= 0.0.0)
     homebrew (~> 2.1)
