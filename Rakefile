@@ -15,7 +15,6 @@ end
 
 task package: :clean do
   sh 'berks vendor vendor/cookbooks'
-  FileUtils.cp 'solo.rb', 'vendor'
   FileUtils.cp 'solo.json', 'vendor'
   version = cookbook_version
   Dir.chdir 'vendor' do
