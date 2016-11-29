@@ -56,6 +56,7 @@ default['homebrew']['casks'] = %w(
     github
     handbrake
     iterm2
+    java
     licecap
     macvim
     seil
