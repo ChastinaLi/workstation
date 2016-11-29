@@ -3,16 +3,21 @@ default['workstation']['formulas'] = %w(
     cowsay
     ctags
     docker
+    dos2unix
+    fzf
     git
     gnu-sed
     gnu-time
+    go
     graphviz
+    htop-osx
     hub
     imagemagick
     jq
     keybase
     libxml2
     maven
+    neovim
     node
     openssl
     packer
@@ -24,6 +29,7 @@ default['workstation']['formulas'] = %w(
     reattach-to-user-namespace
     sqlite
     ssh-copy-id
+    sudolikeaboss
     the_silver_searcher
     tig
     tmux
@@ -32,5 +38,6 @@ default['workstation']['formulas'] = %w(
     watch
     wget
     wireshark
+    youtube-dl
     zsh
 )
