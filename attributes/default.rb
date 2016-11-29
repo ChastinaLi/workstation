@@ -48,6 +48,7 @@ default['homebrew']['casks'] = %w(
     anybar
     atom
     caffeine
+    chefdk
     fantastical
     firefox
     fitbit-connect
@@ -59,4 +60,5 @@ default['homebrew']['casks'] = %w(
     macvim
     seil
     tomighty
+    vagrant
 )

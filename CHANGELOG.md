@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 0.3.1 - 2016-11-29
+### Added
+- Added back casks, they are up to date. But leaving VBox out.
+  - chefdk
+  - vagrant
+- Added new tools I'll be using.
+  - ansible
+  - terraform
+
 ## 0.3.0 - 2016-11-28
 ### Changed
 - Using build in `package` resource in Chef which now defaults to Homebrew.
