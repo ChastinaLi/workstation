@@ -1,16 +1,12 @@
 default['workstation']['formulas'] = %w(
     autojump
-    boot2docker
     cowsay
     ctags
     docker
-    dvm
-    fig
     git
     gnu-sed
     gnu-time
     graphviz
-    heroku-toolbelt
     hub
     imagemagick
     jq
@@ -25,10 +21,7 @@ default['workstation']['formulas'] = %w(
     pstree
     pv
     python
-    rbenv
     reattach-to-user-namespace
-    redis
-    ruby-build
     sqlite
     ssh-copy-id
     the_silver_searcher
