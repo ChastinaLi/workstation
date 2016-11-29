@@ -1,4 +1,5 @@
 default['workstation']['formulas'] = %w(
+    ansible
     autojump
     cowsay
     ctags
@@ -30,6 +31,7 @@ default['workstation']['formulas'] = %w(
     sqlite
     ssh-copy-id
     sudolikeaboss
+    terraform
     the_silver_searcher
     tig
     tmux
