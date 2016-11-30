@@ -53,7 +53,7 @@ default['homebrew']['casks'] = %w(
     firefox
     fitbit-connect
     flux
-    github
+    github-desktop
     handbrake
     iterm2
     java
