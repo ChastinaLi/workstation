@@ -62,4 +62,6 @@ default['homebrew']['casks'] = %w(
     vagrant
 )
 
+default['homebrew']['taps'] = %w(neovim/neovim ravenac95/sudolikeaboss)
+
 default['workstation']['user'] = ENV['SUDO_USER'] || ENV['USER']

@@ -6,6 +6,8 @@ execute 'install_homebrew' do
   user user
 end
 
+include_recipe 'homebrew::install_taps'
+
 node['workstation']['formulas'].each do |formula|
   package formula
 end
