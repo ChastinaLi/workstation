@@ -49,12 +49,10 @@ default['homebrew']['casks'] = %w(
     atom
     caffeine
     chefdk
-    fantastical
     firefox
     fitbit-connect
     flux
     github-desktop
-    handbrake
     iterm2
     java
     licecap
