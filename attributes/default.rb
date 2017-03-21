@@ -15,10 +15,8 @@ default['workstation']['formulas'] = %w(
     hub
     imagemagick
     jq
-    keybase
     libxml2
     maven
-    neovim
     node
     openssl
     packer
@@ -30,7 +28,6 @@ default['workstation']['formulas'] = %w(
     reattach-to-user-namespace
     sqlite
     ssh-copy-id
-    sudolikeaboss
     terraform
     the_silver_searcher
     tig
@@ -50,14 +47,12 @@ default['homebrew']['casks'] = %w(
     caffeine
     chefdk
     firefox
-    fitbit-connect
     flux
     github-desktop
     iterm2
     java
     licecap
     macvim
-    seil
     tomighty
     vagrant
 )
